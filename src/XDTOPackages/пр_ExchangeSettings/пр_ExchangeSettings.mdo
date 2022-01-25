@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23229916-98f6-49ce-beea-0962e8fe8c41">
+  <name>пр_ExchangeSettings</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пр exchange settings</value>
+  </synonym>
+  <namespace>http://www.Podsistemarazv.org/ExchangeSettings</namespace>
+</mdclass:XDTOPackage>

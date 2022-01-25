@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80c63864-24ee-4052-b8d3-2afbaa6dc1ba">
+  <producedTypes>
+    <selectionType typeId="745fb910-a001-44b6-a429-3e647c03c9f0" valueTypeId="12ddd090-c22e-4efd-8c9b-936fcb3648eb"/>
+    <listType typeId="46f6c485-ec1b-4614-85cb-0a652563de95" valueTypeId="7d22e959-9e8b-4121-9c1c-4c9aa4fd8863"/>
+    <managerType typeId="fb661b9d-f4e4-4e54-9e78-c4c7b84ce0f2" valueTypeId="20b42e2c-5ebe-4b10-ab73-1b9b463b2cea"/>
+    <recordSetType typeId="1adc285c-0a26-49a0-9383-a46a213ed140" valueTypeId="4d7af291-6431-440c-9116-ead9ed44c661"/>
+    <recordKeyType typeId="ac3916d6-6d3f-46aa-9cde-af529ab6a0d0" valueTypeId="37bf22aa-a113-4c67-a28b-0586d0b0535c"/>
+    <recordType typeId="b8821b5e-0e16-4594-ae66-bc626d573b4a" valueTypeId="a499be42-97ff-43b7-b4cc-d651c2804c0d"/>
+    <recordManagerType typeId="488eb5c8-4970-46bb-8f88-89dc2940ef02" valueTypeId="1763eb75-045a-480f-8eaf-494ceb22ef3f"/>
+  </producedTypes>
+  <name>pr_ЛокальныеКонстантыЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения констант</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.pr_ЛокальныеКонстантыЗначения.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7accdbcc-1691-4195-9140-87080695aab3">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.pr_ЛокальныеКонстанты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Константа</name>
+      <field>InformationRegister.pr_ЛокальныеКонстантыЗначения.Dimension.Константа</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.pr_ЛокальныеКонстантыЗначения.Dimension.Константа</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c6b9b63c-13e1-485d-9c56-867a19af09ee">
+    <name>ХранилищеКоллекций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище коллекций</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8dd51789-fabd-4bb7-8198-f4bb65e91266">
+    <name>Константа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Константа</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.pr_ЛокальныеКонстанты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>Use</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ddd1291f-e465-48d7-8fd8-df72844fa3dc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

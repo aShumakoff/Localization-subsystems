@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b05e93-967a-418e-8b4d-9840c698abe0">
+  <name>pr_ДинамическоеФормированиеИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Lинамическое формирование интерфейса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.pr_ДинамическоеФормированиеИнтерфейсаСервер</content>
+  <content>CommonModule.pr_ДинамическоеФормированиеИнтерфейсаПовтИсп</content>
+  <content>Catalog.pr_МакетыЭлементовФорм</content>
+  <parentSubsystem>Subsystem.composit_ПодсистемыРазвертывания</parentSubsystem>
+</mdclass:Subsystem>

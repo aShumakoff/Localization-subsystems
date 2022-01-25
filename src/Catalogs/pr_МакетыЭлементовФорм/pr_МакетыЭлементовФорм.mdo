@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80bf86c6-0251-4f33-8be2-fe9d4bfa4b6f">
+  <producedTypes>
+    <objectType typeId="b4798045-fea5-4d3c-a98e-19e25375e496" valueTypeId="9afa0643-888d-4d6f-adf4-c443b36e8b3e"/>
+    <refType typeId="90f44649-59c4-4935-8d92-1d8d30b0a189" valueTypeId="aeba62dd-0d64-4f62-bd13-c534b11e9683"/>
+    <selectionType typeId="d1540fe4-4081-465a-852d-e44b30e8b6ab" valueTypeId="be6f6c06-5821-4442-a2ab-9aebe35b97b2"/>
+    <listType typeId="971fe219-78bc-47cc-94cd-4d0594f98802" valueTypeId="c48a1b75-165b-449b-9470-4458ee7e0d45"/>
+    <managerType typeId="b60a7267-5f58-4bec-bed8-a5d533115614" valueTypeId="7f017390-add5-4e71-96bd-11de9f233b58"/>
+  </producedTypes>
+  <name>pr_МакетыЭлементовФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макеты элементов форм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.pr_МакетыЭлементовФорм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.pr_МакетыЭлементовФорм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.pr_МакетыЭлементовФорм.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3122f868-7d8a-424c-b5a6-5cdadc5af73a">
+    <name>ИдентификаторМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9400c280-fa43-43b6-8d23-c232f1691cbb">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24e9516a-5910-4e01-9235-15760597976e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="52c63b34-302c-44bf-a940-219526bdf078">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

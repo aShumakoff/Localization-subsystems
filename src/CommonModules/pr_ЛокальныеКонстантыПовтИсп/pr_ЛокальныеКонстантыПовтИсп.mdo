@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4071a9e7-28b4-403b-9542-c550f89e68fb">
+  <name>pr_ЛокальныеКонстантыПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локальные константы повтороное использование</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>
