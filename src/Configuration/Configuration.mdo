@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60a8ed50-3ed0-493e-a095-597c0147705e">
-  <name>БиблиотекаРазвертывания</name>
+  <name>Development_Subsystems</name>
   <synonym>
     <key>ru</key>
-    <value>Библиотека развертывания</value>
+    <value>Development subsystems</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be81395f-1360-4b1b-8f93-5ccbb089e935"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7407ffe3-90de-43db-b01a-d96b43c4551d"/>
