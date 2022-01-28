@@ -6,15 +6,13 @@
   <name>pr_ТипыЭлементовСпискаКонстанты</name>
   <synonym>
     <key>ru</key>
-    <value>Типы элементов списка константы1</value>
+    <value>Типы элементов списка константы</value>
   </synonym>
   <type>
     <types>String</types>
     <types>Date</types>
     <types>Boolean</types>
     <types>Number</types>
-    <types>CatalogRef.БолванкаДляТеста</types>
-    <types>CatalogRef.ПроверочныйСправочник</types>
     <numberQualifiers>
       <precision>10</precision>
     </numberQualifiers>
