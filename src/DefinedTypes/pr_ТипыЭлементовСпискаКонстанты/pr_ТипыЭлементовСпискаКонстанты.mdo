@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="811cc566-9636-4a05-bcdb-26c31a919d36">
+  <producedTypes>
+    <containerType typeId="10ca4ac2-d68f-410f-9eb7-1cabbb95cf1d" valueTypeId="273a3761-5631-4177-9997-005150868407"/>
+  </producedTypes>
+  <name>pr_ТипыЭлементовСпискаКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pr типы элементов списка константы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>
