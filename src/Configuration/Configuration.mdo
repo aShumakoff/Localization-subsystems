@@ -53,7 +53,6 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
-  <xDTOPackages>XDTOPackage.пр_ExchangeSettings</xDTOPackages>
   <definedTypes>DefinedType.pr_ТипыЭлементовСпискаКонстанты</definedTypes>
   <commandGroups>CommandGroup.composit_ПрограммноеФормированиеИнтерфейса</commandGroups>
   <commandGroups>CommandGroup.composit_ЛокальныеКонстанты</commandGroups>

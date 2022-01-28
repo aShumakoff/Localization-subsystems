@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="811cc566-9636-4a05-bcdb-26c31a919d36">
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06cdb1fd-dcda-4004-87f6-40c7b7784593">
   <producedTypes>
-    <containerType typeId="10ca4ac2-d68f-410f-9eb7-1cabbb95cf1d" valueTypeId="273a3761-5631-4177-9997-005150868407"/>
+    <containerType typeId="798ef981-4747-40bd-a7cf-679c69eb6759" valueTypeId="cc8c982d-9e71-458b-a710-fe288285d1ab"/>
   </producedTypes>
   <name>pr_ТипыЭлементовСпискаКонстанты</name>
   <synonym>
     <key>ru</key>
-    <value>Pr типы элементов списка константы</value>
+    <value>Типы элементов списка константы</value>
   </synonym>
   <type>
     <types>String</types>
+    <types>Date</types>
+    <types>Boolean</types>
+    <types>Number</types>
+    <types>CatalogRef.БолванкаДляТеста</types>
+    <types>CatalogRef.ПроверочныйСправочник</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
     <stringQualifiers>
       <length>10</length>
     </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
   </type>
 </mdclass:DefinedType>
