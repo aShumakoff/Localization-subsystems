@@ -75,21 +75,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="c6b9b63c-13e1-485d-9c56-867a19af09ee">
-    <name>ХранилищеКоллекций</name>
-    <synonym>
-      <key>ru</key>
-      <value>Хранилище коллекций</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <dimensions uuid="8dd51789-fabd-4bb7-8198-f4bb65e91266">
     <name>Константа</name>
     <synonym>
