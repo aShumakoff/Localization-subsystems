@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="977dcf9b-63a5-42f0-8685-3a63c86e2e94">
+  <name>pr_ЛокальныеКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локальные константы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.pr_ЛокальныеКонстантыЗначения</content>
+  <content>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты</content>
+  <content>CommonModule.pr_ЛокальныеКонстантыСервер</content>
+  <content>CommonModule.pr_ЛокальныеКонстантыПовтИсп</content>
+  <parentSubsystem>Subsystem.pr_ПодсистемыРазвертывания</parentSubsystem>
+</mdclass:Subsystem>

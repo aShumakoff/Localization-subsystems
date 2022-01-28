@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2aa8517-fdcd-4696-b89a-a7881658951f">
+  <name>pr_ПодсистемыРазвертывания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистемы развертывания типового решения под нужды заказчика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.pr_БазовыеПрава</content>
+  <subsystems>pr_ЛокальныеКонстанты</subsystems>
+</mdclass:Subsystem>

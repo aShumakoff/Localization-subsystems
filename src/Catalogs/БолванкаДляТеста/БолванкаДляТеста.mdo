@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e075175-b3ba-4805-969c-e6126ec046c1">
+  <producedTypes>
+    <objectType typeId="e57423d7-bed9-4fe7-bbda-1934ae49bff9" valueTypeId="3f985dd5-f109-44f8-855c-6bf0022ba221"/>
+    <refType typeId="a387727e-856b-4aa9-bf5b-5095e20f3e4d" valueTypeId="64483206-c123-4c96-a3b3-97053421c181"/>
+    <selectionType typeId="9dccd04b-4e12-4f94-b310-cf7184fad21a" valueTypeId="ccaea3fd-9adf-4b13-b08a-f11292d8dba2"/>
+    <listType typeId="43293275-1239-471b-afdd-0e8eacbcb8fb" valueTypeId="b4993ca1-3275-435b-9d13-870f8a9fcced"/>
+    <managerType typeId="04ebdf70-e4d2-4899-87df-58c17a10689a" valueTypeId="aee17ba3-c7ae-47a6-a30e-ed095be04173"/>
+  </producedTypes>
+  <name>БолванкаДляТеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Болванка для теста</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БолванкаДляТеста.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.БолванкаДляТеста.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

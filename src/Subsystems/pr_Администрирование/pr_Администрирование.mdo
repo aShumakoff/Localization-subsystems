@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba08b972-44f4-4f0e-ae33-e0fc14b440cf">
+  <name>pr_Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел Разработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОтделРазработки</picture>
+  </picture>
+  <content>Role.pr_АдминистраторВнедрения</content>
+  <content>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты</content>
+  <content>InformationRegister.pr_ЛокальныеКонстантыЗначения</content>
+</mdclass:Subsystem>

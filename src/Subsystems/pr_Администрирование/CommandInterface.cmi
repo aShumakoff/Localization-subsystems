@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.pr_ЛокальныеКонстантыЗначения.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>CommandGroup.pr_ЛокальныеКонстанты</group>
+      <commands>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.pr_ЛокальныеКонстантыЗначения.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>CommandGroup.pr_ЛокальныеКонстанты</group>
+      <commands>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.pr_ЛокальныеКонстантыЗначения.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

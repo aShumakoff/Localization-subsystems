@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06cdb1fd-dcda-4004-87f6-40c7b7784593">
+  <producedTypes>
+    <containerType typeId="798ef981-4747-40bd-a7cf-679c69eb6759" valueTypeId="cc8c982d-9e71-458b-a710-fe288285d1ab"/>
+  </producedTypes>
+  <name>pr_ТипыЭлементовСпискаКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов списка константы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <types>Date</types>
+    <types>Boolean</types>
+    <types>Number</types>
+    <types>CatalogRef.БолванкаДляТеста</types>
+    <types>CatalogRef.ПроверочныйСправочник</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+</mdclass:DefinedType>

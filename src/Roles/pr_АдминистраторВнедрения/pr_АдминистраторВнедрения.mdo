@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cb8b0db-aaf2-4c87-9d69-3355d0a91536">
+  <name>pr_АдминистраторВнедрения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор внедрения (подсистема развертывания)</value>
+  </synonym>
+</mdclass:Role>

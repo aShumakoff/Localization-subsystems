@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68834733-af7d-40ee-a6a6-1dd02453bbf9">
-  <name>composit_ПрограммноеФормированиеИнтерфейса</name>
-  <synonym>
-    <key>ru</key>
-    <value>Программное формирование интерфейса</value>
-  </synonym>
-  <representation>Auto</representation>
-</mdclass:CommandGroup>

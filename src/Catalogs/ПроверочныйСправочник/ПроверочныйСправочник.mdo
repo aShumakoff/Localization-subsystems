@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed81fb53-5222-4402-a3ea-0ce5ffc852a4">
+  <producedTypes>
+    <objectType typeId="957eca6f-d0b5-49e2-923c-b4ebe30114c7" valueTypeId="e3782963-706c-475b-8c6a-8be55473b6f6"/>
+    <refType typeId="99ec00b5-5a56-4eb9-a2e4-6f51a57b3972" valueTypeId="e9342d56-eef3-48cd-822a-c8a83d4f8ab1"/>
+    <selectionType typeId="2c91f32e-29aa-40d3-b7c7-b0ca37aaf89d" valueTypeId="3563315b-782f-4d0d-b1c5-de49eba66263"/>
+    <listType typeId="23a56f8c-26bb-4275-a8a7-9f9afbf4e568" valueTypeId="12cd840b-0a10-408e-88f2-a1e5d7cd6199"/>
+    <managerType typeId="6d3a2535-bc86-4a76-a38a-3ae625329dfc" valueTypeId="c9e39bc8-5cbf-44c1-bf38-a8b6b1f7d31b"/>
+  </producedTypes>
+  <name>ПроверочныйСправочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверочный справочник</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроверочныйСправочник.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПроверочныйСправочник.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПроверочныйСправочник.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="9e93e428-75ff-40cf-99eb-c433d201965c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
