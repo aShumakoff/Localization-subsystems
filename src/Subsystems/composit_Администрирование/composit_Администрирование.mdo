@@ -10,7 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОтделРазработки</picture>
   </picture>
-  <content>Role.composit_АдминистраторВнедрения</content>
+  <content>Role.pr_АдминистраторВнедрения</content>
   <content>Catalog.pr_МакетыЭлементовФорм</content>
   <content>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты</content>
   <content>InformationRegister.pr_ЛокальныеКонстантыЗначения</content>

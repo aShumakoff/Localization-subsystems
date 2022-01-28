@@ -6,7 +6,7 @@
     <value>Подсистемы развертывания типового решения под нужды заказчика</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Role.composit_БазовыеПрава</content>
+  <content>Role.pr_БазовыеПрава</content>
   <subsystems>pr_ДинамическоеФормированиеИнтерфейса</subsystems>
   <subsystems>pr_ЛокальныеКонстанты</subsystems>
 </mdclass:Subsystem>

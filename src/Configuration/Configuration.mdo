@@ -44,8 +44,8 @@
   <subsystems>Subsystem.composit_ПодсистемыРазвертывания</subsystems>
   <subsystems>Subsystem.composit_Администрирование</subsystems>
   <commonPictures>CommonPicture.ОтделРазработки</commonPictures>
-  <roles>Role.composit_АдминистраторВнедрения</roles>
-  <roles>Role.composit_БазовыеПрава</roles>
+  <roles>Role.pr_АдминистраторВнедрения</roles>
+  <roles>Role.pr_БазовыеПрава</roles>
   <commonModules>CommonModule.pr_ДинамическоеФормированиеИнтерфейсаСервер</commonModules>
   <commonModules>CommonModule.pr_ДинамическоеФормированиеИнтерфейсаПовтИсп</commonModules>
   <commonModules>CommonModule.pr_ЛокальныеКонстантыСервер</commonModules>
