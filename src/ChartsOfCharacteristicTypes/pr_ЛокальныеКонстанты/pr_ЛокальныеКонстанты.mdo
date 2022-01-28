@@ -96,7 +96,6 @@
   <fullTextSearch>Use</fullTextSearch>
   <type>
     <types>Boolean</types>
-    <types>CatalogRef.pr_МакетыЭлементовФорм</types>
     <types>String</types>
     <types>Date</types>
     <types>Number</types>
@@ -194,6 +193,32 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="181e5548-976e-402e-b9f6-b73a9858a10d">
+    <producedTypes>
+      <objectType typeId="78b2c06f-30d4-4a65-a999-9a5cdb2bdd23" valueTypeId="5c9731a9-902a-431b-939e-c0521ff43c65"/>
+      <rowType typeId="d1dbc58f-b12c-4734-97b7-0b583e041e77" valueTypeId="813cf34a-a271-4bbc-8b92-ffa42bc99ef0"/>
+    </producedTypes>
+    <name>СписокКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список константы</value>
+    </synonym>
+    <comment>Служит для сохранения списочных данных в базе, например, перечня пользователей</comment>
+    <attributes uuid="314093cb-05e0-4490-a1df-10d516d23534">
+      <name>ЭлементСписка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент списка</value>
+      </synonym>
+      <type>
+        <types>DefinedType.pr_ТипыЭлементовСпискаКонстанты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="fa9b545d-4f60-43b0-944e-a288d1d221b8">
     <name>ФормаЭлемента</name>
     <synonym>

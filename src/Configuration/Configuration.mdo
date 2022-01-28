@@ -41,23 +41,20 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.composit_ПодсистемыРазвертывания</subsystems>
-  <subsystems>Subsystem.composit_Администрирование</subsystems>
+  <subsystems>Subsystem.pr_ПодсистемыРазвертывания</subsystems>
+  <subsystems>Subsystem.pr_Администрирование</subsystems>
   <commonPictures>CommonPicture.ОтделРазработки</commonPictures>
-  <roles>Role.composit_АдминистраторВнедрения</roles>
-  <roles>Role.composit_БазовыеПрава</roles>
-  <commonModules>CommonModule.pr_ДинамическоеФормированиеИнтерфейсаСервер</commonModules>
-  <commonModules>CommonModule.pr_ДинамическоеФормированиеИнтерфейсаПовтИсп</commonModules>
+  <roles>Role.pr_АдминистраторВнедрения</roles>
+  <roles>Role.pr_БазовыеПрава</roles>
   <commonModules>CommonModule.pr_ЛокальныеКонстантыСервер</commonModules>
   <commonModules>CommonModule.pr_ЛокальныеКонстантыПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
-  <xDTOPackages>XDTOPackage.пр_ExchangeSettings</xDTOPackages>
-  <commandGroups>CommandGroup.composit_ПрограммноеФормированиеИнтерфейса</commandGroups>
-  <commandGroups>CommandGroup.composit_ЛокальныеКонстанты</commandGroups>
-  <commandGroups>CommandGroup.пр_Интеграции</commandGroups>
-  <catalogs>Catalog.pr_МакетыЭлементовФорм</catalogs>
+  <definedTypes>DefinedType.pr_ТипыЭлементовСпискаКонстанты</definedTypes>
+  <commandGroups>CommandGroup.pr_ЛокальныеКонстанты</commandGroups>
+  <catalogs>Catalog.БолванкаДляТеста</catalogs>
+  <catalogs>Catalog.ПроверочныйСправочник</catalogs>
   <informationRegisters>InformationRegister.pr_ЛокальныеКонстантыЗначения</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.pr_ЛокальныеКонстанты</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
